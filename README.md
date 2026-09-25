@@ -4,13 +4,14 @@ Suite portable de aplicaciones para trabajar localmente con documentos, expedien
 
 ## Descargar
 
-La descarga recomendada es el archivo **CALLIOPOL-2.2-portable.zip** que aparece en la sección **Releases** de este repositorio.
+**[DESCARGAR CALLIOPOL 2.2](https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/v2.2/CALLIOPOL-2.2-portable.zip)**
 
-1. Abre la pestaña **Releases**.
-2. Entra en la versión más reciente.
-3. En **Assets**, pulsa **CALLIOPOL-2.2-portable.zip**.
-4. Descomprime el archivo ZIP.
-5. Abre la carpeta descomprimida y ejecuta **CALLIOPOL.bat**.
+También puedes abrir la sección **Releases**, entrar en la versión más reciente y pulsar **CALLIOPOL-2.2-portable.zip** dentro de **Assets**.
+
+1. Descarga el archivo ZIP.
+2. Descomprímelo.
+3. Abre la carpeta descomprimida.
+4. Ejecuta **CALLIOPOL.bat**.
 
 No es necesario instalar Python ni Git.
 
