@@ -2,6 +2,14 @@
 
 Suite portable de aplicaciones para trabajar localmente con documentos, expedientes y herramientas de análisis.
 
+## Guía en vídeo
+
+Consulta la guía de uso de CALLIOPOL:
+
+**[▶ VER GUÍA DE CALLIOPOL]((https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/v2.2/Guia_de_CALLIOPOL_2.mp4))**
+
+
+
 ## Descargar
 
 **[DESCARGAR CALLIOPOL 2.2](https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/v2.2/CALLIOPOL-2.2-portable.zip)**
