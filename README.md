@@ -6,7 +6,7 @@ Suite portable de aplicaciones para trabajar localmente con documentos, expedien
 
 Consulta la guía de uso de CALLIOPOL:
 
-**[▶ VER GUÍA DE CALLIOPOL]((https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/v2.2/Guia_de_CALLIOPOL_2.mp4))**
+**[▶ VER GUÍA DE CALLIOPOL](https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/v2.2/Guia_de_CALLIOPOL_2.mp4))**
 
 
 
