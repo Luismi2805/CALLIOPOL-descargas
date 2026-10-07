@@ -1,4 +1,4 @@
-# CALLIOPOL 2.2
+# CALLIOPOL 2.2.1
 
 Suite portable de aplicaciones para trabajar localmente con documentos, expedientes y herramientas de análisis.
 
@@ -6,15 +6,15 @@ Suite portable de aplicaciones para trabajar localmente con documentos, expedien
 
 Consulta la guía de uso de CALLIOPOL:
 
-**[▶ VER GUÍA DE CALLIOPOL](https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/v2.2/Guia_de_CALLIOPOL_2.mp4))**
+**[▶ VER GUÍA DE CALLIOPOL](https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/v2.2/Guia_de_CALLIOPOL_2.mp4)**
 
 
 
 ## Descargar
 
-**[DESCARGAR CALLIOPOL 2.2](https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/v2.2/CALLIOPOL-2.2-portable.zip)**
+**[DESCARGAR CALLIOPOL 2.2.1](https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/v2.2.1/CALLIOPOL-2.2.1-portable.zip)**
 
-También puedes abrir la sección **Releases**, entrar en la versión más reciente y pulsar **CALLIOPOL-2.2-portable.zip** dentro de **Assets**.
+También puedes abrir la sección **Releases**, entrar en la versión más reciente y pulsar **CALLIOPOL-2.2.1-portable.zip** dentro de **Assets**.
 
 1. Descarga el archivo ZIP.
 2. Descomprímelo.
@@ -22,6 +22,13 @@ También puedes abrir la sección **Releases**, entrar en la versión más recie
 4. Ejecuta **CALLIOPOL.bat**.
 
 No es necesario instalar Python ni Git.
+
+## Novedades de CALLIOPOL 2.2.1
+
+- FOLIAPOL permite añadir varios PDF arrastrándolos directamente sobre la aplicación.
+- Los nombres largos del índice se dividen en varias líneas sin tapar la numeración de páginas.
+- Los títulos extensos de los anexos permanecen dentro de su cuadro.
+- Corregida la presentación del campo DILIGENCIAS/OPERACIÓN en el índice.
 
 ## Contenido
 
