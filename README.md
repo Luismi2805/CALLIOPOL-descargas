@@ -14,13 +14,9 @@ de consulta en fuentes abiertas abren páginas externas cuando se utilizan.
 - **[Guía completa de CALLIOPOL](GUIA_CALLIOPOL.md)**: explicación de todos los
   programas, instrucciones paso a paso, ejemplos y problemas frecuentes.
 
-La documentación de la **2.3** ya está disponible. Su ZIP todavía está pendiente
-de publicación. La última descarga publicada es la **2.2.1**, que no incluye
-las novedades de la 2.3.
-
 ## Descargar la versión publicada
 
-**[DESCARGAR CALLIOPOL 2.2.1] [(https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/V.2.3/CALLIOPOL.2.3.zip)](https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/V.2.3/CALLIOPOL.2.3.zip)**
+**[DESCARGAR CALLIOPOL 2.3] [CALLIOPOL 2.3](https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/V.2.3/CALLIOPOL.2.3.zip)**
 
 También puedes consultar todas las versiones en
 **[Releases](https://github.com/Luismi2805/CALLIOPOL-descargas/releases)**.
