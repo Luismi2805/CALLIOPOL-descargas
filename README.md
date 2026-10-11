@@ -20,7 +20,7 @@ las novedades de la 2.3.
 
 ## Descargar la versión publicada
 
-**[DESCARGAR CALLIOPOL 2.2.1](https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/v2.2.1/CALLIOPOL-2.2.1-portable.zip)**
+**[DESCARGAR CALLIOPOL 2.2.1] [(https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/V.2.3/CALLIOPOL.2.3.zip)](https://github.com/Luismi2805/CALLIOPOL-descargas/releases/download/V.2.3/CALLIOPOL.2.3.zip)**
 
 También puedes consultar todas las versiones en
 **[Releases](https://github.com/Luismi2805/CALLIOPOL-descargas/releases)**.
