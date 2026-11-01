@@ -1,71 +1,66 @@
-# CALLIOPOL — Guía completa de uso
+# CALLIOPOL — Guía de uso
 
-**Documentación de la versión 2.3 · 11 de octubre de 2026.**
+**Versión 2.4 · Actualizada el 1 de noviembre de 2026.**
 
-CALLIOPOL reúne ocho herramientas para trabajar con documentos, fotografías,
-capturas web y mapas de relaciones desde un único menú. El procesamiento de
-documentos se realiza en el equipo del usuario. Las opciones de búsqueda en
-fuentes abiertas abren páginas externas cuando se utilizan.
+CALLIOPOL reúne nueve herramientas para trabajar con documentos, fotografías, capturas web, vídeos y mapas de relaciones desde un único menú.
 
-Esta guía describe las funciones preparadas para la versión 2.3. Su ZIP todavía
-está pendiente de publicación en GitHub. Las versiones anteriores pueden no
-incluir todos los programas y opciones descritos.
+El procesamiento de documentos y vídeos se realiza localmente. Las consultas en fuentes abiertas abren servicios externos cuando se utilizan.
 
-## Índice de la guía
+## Índice
 
 - [1. Qué programa utilizar](#1-qué-programa-utilizar)
-- [2. Descargar y abrir la suite](#2-descargar-y-abrir-la-suite)
-- [3. El lanzador CALLIOPOL](#3-el-lanzador-calliopol)
+- [2. Descargar y abrir CALLIOPOL](#2-descargar-y-abrir-calliopol)
+- [3. El lanzador](#3-el-lanzador)
 - [4. RECONOPOL: reconocimientos fotográficos](#4-reconopol-reconocimientos-fotográficos)
-- [5. DILIPOL: modelos de diligencias y formularios](#5-dilipol-modelos-de-diligencias-y-formularios)
+- [5. DILIPOL: diligencias y formularios](#5-dilipol-diligencias-y-formularios)
 - [6. EXTRAPOL: extracción de texto y datos](#6-extrapol-extracción-de-texto-y-datos)
-- [7. OCRPOL: texto buscable en documentos escaneados](#7-ocrpol-texto-buscable-en-documentos-escaneados)
-- [8. FOLIAPOL: preparación de expedientes PDF](#8-foliapol-preparación-de-expedientes-pdf)
-- [9. ANONIPOL: anonimización de PDF](#9-anonipol-anonimización-de-pdf)
+- [7. OCRPOL: reconocimiento de texto](#7-ocrpol-reconocimiento-de-texto)
+- [8. FOLIAPOL: preparación de expedientes](#8-foliapol-preparación-de-expedientes)
+- [9. ANONIPOL: anonimización de documentos](#9-anonipol-anonimización-de-documentos)
 - [10. NEXOPOL: mapas de relaciones](#10-nexopol-mapas-de-relaciones)
-- [11. CAPTURAPOL: documentación de capturas web](#11-capturapol-documentación-de-capturas-web)
-- [12. Cómo combinar los programas](#12-cómo-combinar-los-programas)
-- [13. Datos, copias de seguridad y actualización](#13-datos-copias-de-seguridad-y-actualización)
-- [14. Problemas frecuentes](#14-problemas-frecuentes)
-- [15. Glosario sencillo](#15-glosario-sencillo)
+- [11. CAPTURAPOL: documentación de capturas](#11-capturapol-documentación-de-capturas)
+- [12. VIDEOPOL: Calliopol Vídeo](#12-videopol-calliopol-vídeo)
+- [13. Cómo combinar los programas](#13-cómo-combinar-los-programas)
+- [14. Datos, copias y actualizaciones](#14-datos-copias-y-actualizaciones)
+- [15. Problemas frecuentes](#15-problemas-frecuentes)
+- [16. Glosario](#16-glosario)
 
 ## 1. Qué programa utilizar
 
 | Necesidad | Programa |
 | --- | --- |
 | Preparar un reconocimiento fotográfico y su acta | RECONOPOL |
-| Buscar y copiar modelos de diligencias o abrir formularios | DILIPOL |
+| Consultar modelos de diligencias y formularios | DILIPOL |
 | Extraer texto y datos de PDF y organizarlos en Excel | EXTRAPOL |
-| Poder buscar y copiar texto en un PDF escaneado | OCRPOL |
-| Ordenar PDF, añadir anexos y crear un expediente con índice, manifiesto y firma opcionales | FOLIAPOL |
-| Eliminar datos o zonas de un PDF para preparar una copia anonimizada | ANONIPOL |
-| Organizar elementos y relaciones en un mapa visual | NEXOPOL |
-| Convertir una captura web guardada como imagen o PDF en un documento A4 con portada | CAPTURAPOL |
+| Buscar y copiar texto de un PDF escaneado | OCRPOL |
+| Ordenar y unir PDF en un expediente con anexos, índice y firma opcional | FOLIAPOL |
+| Preparar una copia anonimizada de un PDF | ANONIPOL |
+| Representar elementos y relaciones en un mapa visual | NEXOPOL |
+| Convertir una captura guardada como imagen o PDF en un documento A4 con portada | CAPTURAPOL |
+| Revisar vídeos, organizar fotogramas y preparar actas o volcados automáticos | VIDEOPOL — Calliopol Vídeo |
 
-## 2. Descargar y abrir la suite
+## 2. Descargar y abrir CALLIOPOL
 
 1. Abre la sección [Releases de CALLIOPOL](https://github.com/Luismi2805/CALLIOPOL-descargas/releases).
-2. Comprueba el número de versión y descarga el ZIP portable de sus archivos
-   adjuntos, llamados **Assets** en GitHub.
-3. Descomprime todo el ZIP en una carpeta del equipo o de un pendrive.
-4. Abre la carpeta descomprimida y haz doble clic en **CALLIOPOL.bat**.
-5. Selecciona el programa que necesitas.
+2. Selecciona la versión que quieras descargar.
+3. En **Assets**, descarga el ZIP portable.
+4. Descomprime todo su contenido.
+5. Abre la carpeta **CALLIOPOL 2.4**.
+6. Ejecuta **CALLIOPOL.bat**.
 
-Para usar el portable no hace falta instalar Python ni Git. AutoFirma y los
-controladores de la tarjeta sí son necesarios cuando se elige la firma
-electrónica con tarjeta. Para ver Excel, Word o vídeos se necesita una aplicación
-compatible con esos formatos.
+No necesitas instalar Python ni Git.
 
-Conserva la estructura completa. Por ejemplo, una distribución de la versión
-2.3 puede organizarse así:
+Para abrir los documentos exportados necesitarás aplicaciones compatibles con PDF, DOCX o XLSX. La firma electrónica requiere AutoFirma y, cuando se utiliza una tarjeta, sus controladores.
+
+La estructura principal es:
 
 ```text
-CALLIOPOL 2.3/
+CALLIOPOL 2.4/
 ├── CALLIOPOL.bat
 ├── CALLIOPOL/
 │   ├── CALLIOPOL.exe
 │   ├── suite_config.json
-│   └── ... bibliotecas, recursos y datos de uso
+│   └── ... bibliotecas y recursos
 └── apps/
     ├── RECONOPOL/
     ├── DILIPOL/
@@ -74,499 +69,598 @@ CALLIOPOL 2.3/
     ├── FOLIAPOL/
     ├── ANONIPOL/
     ├── NEXOPOL/
-    └── CAPTURAPOL/
+    ├── CAPTURAPOL/
+    └── VIDEOPOL/
 ```
 
-El archivo `.exe` de cada programa necesita sus bibliotecas, plantillas y demás
-recursos. Para llevar la suite a otro equipo, copia toda su carpeta.
+**Conserva la carpeta completa.** Copiar únicamente los ejecutables deja fuera bibliotecas y recursos necesarios.
 
-## 3. El lanzador CALLIOPOL
+## 3. El lanzador
 
-CALLIOPOL es el menú desde el que se abren las herramientas. Al pasar el ratón
-por un botón aparece una breve explicación de su utilidad. Cada herramienta
-se abre en su propia ventana.
+El lanzador muestra los botones de las aplicaciones. Al pasar el ratón sobre ellos aparece una explicación de su utilidad.
 
-Si aparece **no disponible**, el lanzador no encuentra el ejecutable previsto.
-Comprueba que se haya extraído el ZIP completo y que la carpeta de esa aplicación
-esté dentro de `apps`.
+Pulsa un botón para abrir la herramienta correspondiente en una ventana independiente.
 
-**Exportar diagnóstico técnico** genera un informe con la versión, información
-del equipo y disponibilidad de los programas. No incorpora el contenido de los
-expedientes. El mensaje indica dónde se ha guardado.
+Si aparece **no disponible**, comprueba que se haya extraído el ZIP completo y que la aplicación conserve su carpeta dentro de `apps`.
+
+**Exportar diagnóstico técnico** genera un informe sobre la versión, el equipo y la disponibilidad de los programas. No incorpora el contenido de los expedientes. El mensaje indica dónde se ha guardado.
 
 ## 4. RECONOPOL: reconocimientos fotográficos
 
-RECONOPOL ayuda a preparar un acta de reconocimiento fotográfico a partir de
-fichas PDF o fotografías individuales.
+RECONOPOL permite preparar actas a partir de fichas PDF o fotografías individuales.
 
 ### Uso básico
 
-1. Abre **Datos del Acta**, completa los datos necesarios y guárdalos.
-2. Utiliza **Importar fichas** para elegir o crear la carpeta del caso e
-   incorporar las fichas PDF. El programa extrae las fotografías.
-3. Si ya tienes las fotos separadas, utiliza **Importar Solo Fotos** y completa
-   los datos asociados que solicite.
-4. Abre **Previsualizar acta**, carga las fotografías y selecciona las que
-   deben aparecer.
-5. Revisa las imágenes y los datos y genera el acta final.
+1. Abre **Datos del Acta**, completa los campos necesarios y guárdalos.
+2. Utiliza **Importar fichas** para incorporar fichas PDF a la carpeta del caso.
+3. Si ya tienes las imágenes separadas, utiliza **Importar Solo Fotos**.
+4. Abre **Previsualizar acta**.
+5. Carga y selecciona las fotografías que deben aparecer.
+6. Revisa la composición y genera el acta.
 
-El acta admite hasta 12 fotografías con numeración consecutiva. La numeración
-del acta es independiente del nombre de la fotografía. Se genera el PDF y un
-archivo de texto con el detalle de las personas incluidas.
+El acta admite hasta doce fotografías con numeración consecutiva. Esa numeración es independiente del nombre de cada archivo.
 
-**Fichas/Fotos tratadas** permite acceder a las carpetas de trabajo. Antes de
-utilizar el acta, comprueba que cada foto corresponde a los datos de la persona
-prevista y que la extracción desde las fichas ha sido correcta.
+Se genera el PDF y un archivo de texto con el detalle de las personas incluidas.
 
-## 5. DILIPOL: modelos de diligencias y formularios
+**Fichas/Fotos tratadas** permite acceder a las carpetas de trabajo. Comprueba siempre que cada fotografía corresponde a los datos previstos y que su extracción ha sido correcta.
 
-DILIPOL organiza una biblioteca de modelos de diligencias y permite acceder a
-formularios para abrirlos con la aplicación correspondiente.
+## 5. DILIPOL: diligencias y formularios
+
+DILIPOL organiza una biblioteca de modelos de diligencias y formularios.
 
 ### Uso básico
 
-1. Navega por las carpetas o utiliza el buscador para localizar un modelo.
-2. Selecciona la diligencia o abre un resultado de búsqueda para mostrar su
-   contenido.
-3. Prepara el texto que necesitas en el área de trabajo y pulsa **Copiar
-   contenido** para llevarlo al documento que estés redactando.
-4. Utiliza **Abrir carpeta de formularios** para acceder a los PDF y documentos
-   de esa biblioteca.
+1. Navega por las carpetas o utiliza el buscador.
+2. Selecciona un modelo para mostrar su contenido.
+3. Prepara el texto que necesitas.
+4. Pulsa **Copiar contenido** para llevarlo al documento que estés redactando.
+5. Utiliza **Abrir carpeta de formularios** para acceder a los documentos de esa biblioteca.
 
-También permite crear, renombrar y eliminar archivos y carpetas. Esas acciones
-modifican la biblioteca de trabajo. Conserva una copia de tus modelos propios
-antes de reorganizarla o actualizar el programa.
+También permite crear, renombrar y eliminar archivos y carpetas. Estas acciones modifican la biblioteca de trabajo.
 
-Los textos y formularios son materiales que el usuario debe revisar y adaptar
-al caso concreto. Copiar un modelo no completa automáticamente sus datos.
+Conserva una copia de los modelos personalizados antes de reorganizar o actualizar el programa. Revisa y adapta los textos al caso concreto.
 
 ## 6. EXTRAPOL: extracción de texto y datos
 
-EXTRAPOL toma el texto de documentos PDF, lo organiza en Excel y ayuda a
-localizar datos como teléfonos, correos, cuentas bancarias, usuarios y páginas
-web. Sus búsquedas en fuentes abiertas se conocen como **OSINT**.
+EXTRAPOL extrae texto de documentos PDF, lo organiza en Excel e identifica datos para facilitar su revisión y las consultas en fuentes abiertas.
 
 ### Uso por fases
 
 1. Pulsa **Seleccionar PDFs** y elige los documentos.
-2. Ejecuta **Fase 0: Procesar Texto**. Esta fase crea la base que utilizarán
-   las demás.
-3. Ejecuta **Fase 1: Crear Excel** para obtener el texto completo organizado
-   por documento y un resumen.
-4. Ejecuta **Fase 2: Extraer Datos Clave** para generar un extracto de los
-   documentos y una tabla con los datos identificados.
-5. Ejecuta **Fase 3: Cruces OSINT** para agrupar y comparar datos coincidentes
-   entre documentos.
-6. Ejecuta **Fase 4: Resultados OSINT** para preparar las acciones de búsqueda
-   disponibles para los datos encontrados.
+2. Ejecuta **Fase 0: Procesar Texto** para preparar la base de trabajo.
+3. Ejecuta **Fase 1: Crear Excel** para obtener el texto completo organizado por documento.
+4. Ejecuta **Fase 2: Extraer Datos Clave** para generar el extracto y los datos identificados.
+5. Ejecuta **Fase 3: Cruces OSINT** para agrupar y comparar coincidencias.
+6. Ejecuta **Fase 4: Resultados OSINT** para preparar las acciones de consulta disponibles.
 
-En **OSINT Links** puedes filtrar por valor y hacer doble clic en una acción
-para abrir su consulta en el navegador. **Actualizar Links** recarga la tabla.
-Los botones para abrir los Excel se habilitan al generar los resultados.
+Los botones para abrir los Excel se habilitan cuando se generan los resultados.
 
-La detección de coincidencias ayuda a organizar la información; no demuestra
-por sí sola una relación entre personas. Las consultas externas pueden enviar
-el dato buscado al servicio abierto en el navegador.
+### Qué información se analiza
 
-Si el PDF es una imagen escaneada y no tiene texto seleccionable, procésalo
-antes con OCRPOL. Si cambias los documentos, vuelve a ejecutar la Fase 0.
+La Fase 1 permite consultar el texto completo extraído.
 
-## 7. OCRPOL: texto buscable en documentos escaneados
+La extracción de datos clave y las funciones de cruces y resultados OSINT se centran en los bloques **DENUNCIANTE** y **MANIFIESTA**. El acta de información de derechos y sus anexos quedan fuera de ese análisis.
 
-OCRPOL reconoce el texto visible de un PDF escaneado y añade una capa que
-permite buscar palabras y copiar texto.
+Si el documento no contiene esos bloques reconocibles, el programa no utiliza automáticamente todo el documento como sustituto para las búsquedas.
+
+### Progreso y errores
+
+La extracción inicial y la generación de Excel se realizan en segundo plano. La ventana muestra el documento en procesamiento y los errores que se produzcan.
+
+Un error en un PDF no impide continuar con los demás archivos del lote.
+
+Si un PDF no tiene texto extraíble, utiliza OCRPOL y vuelve a incorporarlo. Cuando cambies los documentos, repite la Fase 0.
+
+### Consultas OSINT
+
+En **OSINT Links** puedes filtrar por valor y hacer doble clic en una acción para abrir la consulta en el navegador. **Actualizar Links** recarga la tabla.
+
+Las coincidencias ayudan a organizar la información, pero requieren comprobación. Abrir una consulta puede enviar el dato buscado al servicio externo correspondiente.
+
+## 7. OCRPOL: reconocimiento de texto
+
+OCRPOL añade una capa de texto a documentos PDF escaneados para poder buscar palabras y copiar su contenido.
 
 ### Uso básico
 
 1. Selecciona uno o varios PDF.
-2. Elige las opciones de OCR disponibles.
-3. Inicia el procesamiento y espera a que finalice cada archivo.
-4. Abre el PDF de salida y comprueba que puedes buscar y seleccionar texto.
+2. Elige las opciones de reconocimiento.
+3. Inicia el procesamiento.
+4. Espera a que termine.
+5. Abre el resultado y comprueba que puedes buscar y seleccionar texto.
 
-El modo habitual respeta las páginas que ya contienen texto. **Forzar OCR**
-permite rehacer el reconocimiento existente. Los PDF se procesan uno tras otro;
-un error en un archivo no impide continuar con los demás.
+El modo habitual respeta las páginas que ya contienen texto. **Forzar OCR** permite rehacer el reconocimiento existente.
 
-El programa crea archivos de salida con un nombre distinto, como
-`documento_salida.pdf`, y añade un número si ese nombre ya existe. Si se cancela,
-se elimina la salida parcial del archivo activo.
+Los archivos se procesan uno tras otro. Un error no impide continuar con los demás.
 
-El portable incorpora el motor de reconocimiento y modelos de español e inglés.
-El reconocimiento de otros idiomas depende de que estén disponibles sus modelos.
-Revisa especialmente cifras, nombres, documentos de identidad y palabras poco
-legibles: el OCR puede confundir caracteres.
+Las salidas se guardan con un nombre distinto del original. Si el nombre ya existe, se añade un número. Al cancelar, se retira la salida parcial del archivo activo.
 
-## 8. FOLIAPOL: preparación de expedientes PDF
+El portable incorpora modelos de español e inglés. Otros idiomas requieren sus modelos correspondientes.
 
-FOLIAPOL ordena documentos, crea anexos con separadores y los reúne en un
-expediente. Puede añadir índice, numeración, manifiesto de integridad y firma.
+Revisa especialmente cifras, nombres y documentos de identidad: el reconocimiento puede confundir caracteres.
 
-### Datos permanentes
+## 8. FOLIAPOL: preparación de expedientes
 
-En **Datos de la unidad** guarda Comisaría, Unidad, Dirección, Teléfono y
-Correo electrónico. Se reutilizan en los documentos que crea FOLIAPOL.
+FOLIAPOL reúne documentos PDF en un expediente y permite añadir anexos, separadores, índice, numeración, manifiesto de integridad y firma.
 
-Estos campos son iguales a los de CAPTURAPOL, pero cada aplicación guarda su
-propia configuración; completa los datos en ambas cuando las utilices.
+### Datos de la unidad
+
+En **Datos de la unidad**, guarda Comisaría, Unidad, Dirección, Teléfono y Correo electrónico.
+
+Cada aplicación conserva su propia configuración. Completa también estos datos en CAPTURAPOL o VIDEOPOL cuando los utilices.
 
 ### Preparar el expediente
 
-1. Rellena **Diligencias judiciales**, cuando corresponda, y
-   **DILIGENCIAS/OPERACIÓN**. Este último dato es obligatorio y determina el
-   nombre del archivo de salida.
-2. Pulsa **Añadir PDF** para incorporar documentos independientes. También
-   puedes arrastrar varios PDF sobre la lista.
-3. Pulsa **Añadir anexo** para crear un conjunto de documentos con título.
-4. Selecciona un anexo y utiliza **Añadir PDF al anexo** para incorporar sus PDF.
-5. Ordena los elementos mediante **Subir** y **Bajar**. Al seleccionar el
-   título de un anexo se mueve todo el conjunto con sus documentos.
-6. Activa las opciones que necesitas y revisa los cortes si utilizas división
-   manual.
-7. Pulsa **GENERAR EXPEDIENTE PDF** y elige la carpeta de destino.
+1. Rellena **Diligencias judiciales**, cuando corresponda.
+2. Completa **DILIGENCIAS/OPERACIÓN**. Es obligatorio y determina el nombre de salida.
+3. Pulsa **Añadir PDF** para incorporar documentos independientes. También puedes arrastrarlos sobre la lista.
+4. Pulsa **Añadir anexo** para crear un conjunto con título.
+5. Selecciona el anexo y utiliza **Añadir PDF al anexo**.
+6. Ordena los elementos con **Subir** y **Bajar**.
+7. Selecciona las opciones de índice, división, manifiesto y firma.
+8. Pulsa **GENERAR EXPEDIENTE PDF** y elige el destino.
 
-Los anexos se numeran automáticamente en su orden actual. Al moverlos o quitar
-uno, sus números se ajustan. Un anexo vacío debe completarse antes de generar.
+Los anexos se numeran automáticamente. Al seleccionar su título puedes mover el conjunto completo con sus documentos.
 
 ### Índice y numeración
 
-**Incluir índice general** añade un índice al principio, con los PDF, anexos
-y páginas correspondientes. Los nombres largos se distribuyen en varias líneas.
+**Incluir índice general** añade una relación de documentos y anexos con sus páginas.
 
-Cuando hay índice, las páginas del cuerpo del expediente se numeran de forma
-continua, incluidos separadores y manifiesto. Las hojas del índice quedan fuera
-de esa numeración. Las referencias del índice corresponden a los números
-impresos en el expediente, no a la posición de página que indique el visor PDF.
-La numeración del cuerpo continúa aunque se generen varias partes.
+La numeración del cuerpo es continua e incluye separadores y manifiesto. Las hojas del índice quedan fuera de esa numeración.
 
-### División en partes de hasta 10 MB
+Las referencias del índice corresponden a los números impresos, que pueden ser distintos de la posición indicada por el visor PDF.
 
-| Modo | Qué hace el usuario |
+### Dividir el expediente
+
+El expediente puede dividirse por páginas completas en archivos de hasta **10.000.000 bytes**.
+
+| Modo | Funcionamiento |
 | --- | --- |
-| Automático | Deja que el programa busque cortes por páginas completas para respetar 10.000.000 bytes por archivo. |
-| Manual | Indica después de qué páginas cortar o las selecciona en «Elegir páginas». |
+| Automático | El programa busca cortes que respeten el límite. |
+| Manual | El usuario indica después de qué páginas debe terminar cada parte. |
 
-**Elegir páginas** presenta la posición de las hojas en el conjunto, incluidos
-el índice y los separadores. Un doble clic marca un corte después de esa hoja.
-Por ejemplo, `15, 32` termina las primeras partes después de las posiciones 15
-y 32 del conjunto completo.
+**Elegir páginas** muestra las posiciones del conjunto completo, incluidos índice y separadores. Un doble clic permite marcar un corte.
 
-Un PDF de entrada de más de 10 MB puede incorporarse: sus páginas se reparten
-entre partes. Si un corte manual crea una parte demasiado grande, el programa
-solicita cambiarlo. Si una página sola supera el límite, el documento necesita
-reducirse antes; no se parte una hoja por la mitad ni se empeora la imagen para
-forzar el tamaño.
+Un documento de entrada mayor de 10 MB puede repartirse entre partes. Si una página sola supera el límite, debes reducir previamente el documento de origen.
 
-Cuando cambia el orden, se añaden o retiran documentos, o cambia la composición
-del índice o del manifiesto, los cortes se borran. Vuelve a elegirlos después de
-terminar esos cambios.
+Al cambiar la composición del expediente se borran los cortes anteriores. Elígelos después de terminar la organización.
 
 ### Manifiesto de integridad
 
-Activa **Incluir manifiesto de integridad** y rellena **Funcionario actuante**.
-Se activa también el índice. El manifiesto utiliza los datos de la unidad y la
-referencia de diligencias; si está vacía, utiliza DILIGENCIAS/OPERACIÓN.
+Activa **Incluir manifiesto de integridad** y completa **Funcionario actuante**. Esta opción activa también el índice.
 
-Para cada PDF original incorporado recoge:
+El manifiesto recoge, para cada PDF original:
 
-- Nombre del archivo.
+- Nombre.
 - Tipo de archivo.
 - Tamaño en bytes.
 - Huella SHA-256.
 
-Incluye tanto documentos independientes como documentos de los anexos. Los
-archivos repetidos figuran en cada posición en la que se incorporan. Las huellas
-corresponden a los mismos bytes que se utilizan para la unión.
+Incluye documentos independientes y documentos de los anexos.
 
-El manifiesto se une como **última sección**, se incluye en el índice y participa
-en la numeración. No se guarda como PDF aparte. Si el expediente se divide,
-hay **un solo manifiesto** para todos los documentos del conjunto, al final de
-las partes resultantes. Puede tener varias páginas y sus hojas respetan los
-mismos cortes que el resto del expediente.
+Se incorpora como **última sección del expediente**, aparece en el índice y participa en la numeración. No se genera como PDF separado.
 
-Una huella funciona como una identificación del contenido de un archivo.
-Cambiar el contenido produce otra huella. El manifiesto identifica los PDF
-originales, antes de unirlos; no contiene una huella del propio PDF final dentro
-de él, porque añadirla cambiaría ese archivo.
+Si el expediente se divide, hay un único manifiesto para el conjunto, situado al final. Las huellas corresponden a los originales incorporados, antes de unirlos.
 
-### Firma del expediente
+### Firma
 
-| Opción | Uso |
+| Opción | Resultado |
 | --- | --- |
-| Sin firma | Crea el expediente sin firma electrónica. |
-| Firmar electrónicamente ahora | Solicita la firma con AutoFirma y la tarjeta. |
-| Preparar para firma externa | Crea campos de firma vacíos para firmar después con otra aplicación. |
+| Sin firma | Expediente sin firma electrónica. |
+| Firmar electrónicamente ahora | Firma los PDF finales mediante AutoFirma. |
+| Preparar para firma externa | Añade campos vacíos para firmar posteriormente. |
 
-La firma o una imagen de firma activan el índice. El cuadro visible se coloca
-después de su última entrada. Si falta espacio, pasa a una hoja de continuación
-del índice.
+El cuadro visible se coloca al final del índice. Si hay varias partes, se firman todas; las restantes llevan firma invisible.
 
-**Añadir imagen de firma** admite PNG y JPEG, muestra una vista previa y permite
-quitar la imagen. Puedes utilizar la imagen como representación visual sin firma
-electrónica, o combinarla con la firma de la tarjeta. La imagen por sí sola no
-protege el archivo mediante una firma electrónica.
+Si una firma falla o se cancela, no se guardan las nuevas partes como expediente terminado.
 
-Al firmar electrónicamente, primero se termina toda la preparación del expediente.
-Después se firma el contenido completo de cada PDF final, incluido el manifiesto
-que le corresponda. Si hay varias partes, se firman **todas**. El cuadro visible
-queda en la parte que contiene el final del índice y las otras llevan firma
-invisible. Una firma invisible protege igualmente el contenido de su archivo.
+**Añadir imagen de firma** permite utilizar una imagen PNG o JPEG como representación visual. La imagen por sí sola no constituye una firma electrónica.
 
-El programa reserva espacio para las firmas y comprueba el tamaño final. Si
-alguna firma falla o se cancela, no se guardan las partes nuevas como expediente
-terminado. En el modo externo los documentos siguen sin firma electrónica hasta
-que se firme cada archivo con la aplicación elegida.
+Para firmar con tarjeta, selecciona el certificado de **FIRMA** y escribe el PIN en la ventana del firmador.
 
-Para firmar con tarjeta necesitas AutoFirma instalado y los controladores de la
-tarjeta. Selecciona el certificado de **FIRMA**, no el de autenticación. Introduce
-el PIN únicamente en la ventana que lo solicite el firmador.
+La comprobación local verifica la correspondencia entre firma y contenido; no sustituye una validación de confianza y revocación del certificado.
 
-La comprobación incorporada verifica localmente que la firma corresponde al
-contenido completo. No consulta la revocación ni acredita la confianza externa
-en el certificado. La prueba de esta función de FOLIAPOL con la tarjeta del
-usuario sigue pendiente; las comprobaciones automáticas usan certificados de
-prueba.
+Si incorporas un PDF ya firmado, conserva el original: su firma no se mantiene válida en el expediente generado mediante la unión.
 
-Si un PDF de entrada ya tiene firma electrónica, la unión no conserva su validez
-en el expediente resultante. Conserva el original firmado y firma el expediente
-final una vez terminada la unión.
+## 9. ANONIPOL: anonimización de documentos
 
-## 9. ANONIPOL: anonimización de PDF
+ANONIPOL prepara copias de PDF eliminando determinados datos o zonas.
 
-ANONIPOL crea copias de PDF en las que elimina determinados datos o zonas.
-Ofrece tres modos:
-
-| Modo | Funcionamiento |
+| Modo | Uso |
 | --- | --- |
-| Básico | Elimina automáticamente los datos que reconoce como sensibles. |
-| Avanzado | Muestra los datos detectados, sus categorías y apariciones para elegir qué eliminar. |
-| Manual | Permite recorrer las páginas y dibujar las zonas que se deben eliminar. |
+| Básico | Eliminación automática de los datos reconocidos. |
+| Avanzado | Revisión de datos detectados para elegir cuáles eliminar. |
+| Manual | Selección visual de las zonas que deben eliminarse. |
 
 ### Uso básico
 
-1. Selecciona uno o varios PDF.
-2. Elige el modo.
-3. Si lo necesitas, añade términos propios que deben localizarse.
-4. En modo avanzado revisa y marca los datos concretos. En modo manual marca
-   visualmente las zonas, incluidas fotos o firmas.
-5. Genera la copia anonimizada y revísala página por página.
+1. Selecciona los PDF.
+2. Elige un modo.
+3. Añade términos propios si necesitas localizar datos concretos.
+4. Revisa los datos detectados o marca las zonas.
+5. Genera la copia.
+6. Comprueba el resultado página por página.
 
-La detección incluye distintos datos de identidad, contacto, domicilio,
-finanzas y dispositivos. No garantiza reconocer cualquier dato personal:
-utiliza términos propios o el modo manual para lo que no aparezca detectado.
+La detección automática no identifica necesariamente todos los datos. Utiliza términos propios o el modo manual para completar la revisión.
 
-Cuando un escaneo no tiene texto buscable, utiliza el motor local de OCRPOL antes
-de la detección automática. Los idiomas disponibles dependen de sus modelos.
-La eliminación se hace sobre el contenido del PDF mediante redacciones, y se
-limpian los metadatos. El original no se sobrescribe.
+Para documentos escaneados sin texto buscable se utiliza el motor de OCRPOL.
 
-Antes de compartir la copia, comprueba que no queden datos identificativos en
-texto, imágenes o zonas que no se hayan marcado.
+La aplicación aplica redacciones sobre el contenido del PDF y limpia metadatos. El original no se sobrescribe.
+
+Antes de compartir una copia, comprueba también imágenes, fotografías, firmas y otras zonas identificativas.
 
 ## 10. NEXOPOL: mapas de relaciones
 
-NEXOPOL organiza elementos encontrados en PDF en un mapa visual. Permite
-mostrar fichas, incorporar imágenes y dibujar relaciones entre ellas.
+NEXOPOL permite organizar elementos extraídos de documentos en fichas y representar relaciones en un mapa visual.
 
 ### Uso básico
 
 1. Crea un proyecto con **Nuevo** o recupera uno con **Abrir**.
-2. Pulsa **Añadir PDF** para extraer elementos de documentos con texto.
-3. Selecciona fichas y colócalas en el lienzo.
-4. Utiliza **Relacionar** para elegir origen, destino y dirección de una flecha.
-5. Selecciona una ficha y utiliza **Añadir imagen** o **Ajustar ficha** cuando
-   necesites completar su presentación.
-6. Guarda el proyecto con **Guardar** o **Guardar como**.
-7. Exporta el lienzo a PNG o PDF para incorporarlo a otro documento.
+2. Utiliza **Añadir PDF** para incorporar documentos con texto.
+3. Coloca las fichas en el lienzo.
+4. Utiliza **Relacionar** para establecer origen, destino y dirección de las flechas.
+5. Completa las fichas con **Añadir imagen** o **Ajustar ficha**.
+6. Guarda el proyecto.
+7. Exporta el mapa a PNG o PDF.
 
-Los elementos repetidos se agrupan por su valor normalizado y conservan sus
-apariciones en los documentos de origen. Las flechas expresan las relaciones
-que establece el usuario; la extracción de datos no confirma esas relaciones.
+Los elementos repetidos se agrupan por su valor normalizado y conservan sus apariciones en los documentos de origen.
 
-Puede trabajar con varios lienzos: **Nuevo lienzo con selección** crea uno a
-partir de fichas seleccionadas; **Enviar a lienzo** incorpora fichas a otro
-lienzo existente; **Organizar lienzo** distribuye las fichas. Hay desplazamiento
-horizontal y vertical, selección de varias fichas, deshacer y rehacer.
+Las flechas representan relaciones establecidas por el usuario; la extracción no confirma por sí misma esas relaciones.
 
-El formato `.nexopol` permite continuar editando el proyecto. La exportación a
-PNG o PDF conserva una representación del gráfico. Las imágenes asociadas a
-fichas se referencian por su ubicación: conserva también esas imágenes al mover
-el proyecto a otro equipo.
+Puede trabajar con varios lienzos y permite organizar fichas, seleccionar varias, deshacer y rehacer.
 
-**Buscar** abre las opciones disponibles para consultar un elemento en fuentes
-externas. NEXOPOL sigue en desarrollo; revisa los mapas y conserva el proyecto
-editable además de su exportación. Para PDF escaneados sin texto, utiliza
-OCRPOL antes de incorporarlos.
+Conserva el proyecto editable y las imágenes asociadas a las fichas. La exportación PNG o PDF contiene una representación del mapa.
 
-## 11. CAPTURAPOL: documentación de capturas web
+**NEXOPOL sigue en desarrollo.** Revisa sus resultados y utiliza OCRPOL antes de incorporar documentos escaneados sin texto.
 
-CAPTURAPOL convierte una captura web ya guardada en un PDF A4 con portada.
-Puedes usar FireShot u otra herramienta para obtener primero el archivo.
+## 11. CAPTURAPOL: documentación de capturas
 
-### Preparar la captura
+CAPTURAPOL convierte una captura previamente guardada como imagen o PDF en un documento A4 con portada.
 
-1. Abre la página en el navegador y guarda la captura completa como imagen o
-   PDF con la herramienta elegida.
-2. Conserva ese archivo original en su ubicación.
-3. Abre CAPTURAPOL y guarda en **Datos de la unidad** Comisaría, Unidad, Correo
-   electrónico, Teléfono y Dirección.
-4. En **Preparar captura**, pulsa **Seleccionar captura** y elige el archivo.
-5. Utiliza **Revisar captura** para comprobar el contenido recibido.
+### Preparar el archivo
 
-Acepta PDF e imágenes compatibles, como PNG, JPEG, BMP y TIFF de una sola imagen.
-Los PDF protegidos con contraseña se rechazan.
+1. Guarda la captura completa con FireShot u otra herramienta compatible.
+2. Conserva el archivo original.
+3. Abre CAPTURAPOL.
+4. Completa y guarda **Datos de la unidad**.
+5. En **Preparar captura**, pulsa **Seleccionar captura**.
+6. Comprueba el contenido con **Revisar captura**.
 
-### Completar los datos y generar
+Acepta PDF e imágenes compatibles. Los PDF protegidos con contraseña se rechazan.
 
-1. Rellena **Diligencias / referencia**, **Funcionario actuante** y
-   **Dirección de la página web**. La dirección debe empezar por `http://` o
-   `https://`.
-2. Revisa la **Fecha**, la **Hora** y la **Zona horaria / UTC**.
-3. Comprueba **Herramienta de captura**, que propone FireShot, y añade
-   observaciones si las necesitas.
-4. Elige **A4 vertical** o **A4 horizontal** y si se numeran las hojas de captura.
-5. Selecciona una modalidad de firma.
-6. Pulsa **GENERAR PDF**, elige dónde guardarlo y revisa el resultado con
-   **Revisar PDF**.
+### Completar los datos
 
-La fecha y hora iniciales se toman de la creación del archivo en Windows y se
-pueden cambiar. Copiar o descargar un archivo puede modificar la fecha de
-creación que registra el equipo: comprueba que la propuesta sea la adecuada.
-El formato es día/mes/año y horas:minutos:segundos.
+1. Rellena **Diligencias / referencia** y **Funcionario actuante**.
+2. Completa **Página web o nombre** si lo necesitas. Es opcional y admite texto libre.
+3. Revisa fecha, hora y zona horaria.
+4. Comprueba la herramienta de captura y añade observaciones.
+5. Elige orientación vertical u horizontal y numeración.
+6. Selecciona la modalidad de firma.
+7. Pulsa **GENERAR PDF**.
+8. Revisa el nombre propuesto y elige el destino.
 
-La portada utiliza el modelo incluido en el programa. Los datos se rellenan
-como texto dentro del documento; el apartado de firma dispone de su cuadro
-cuando se elige una modalidad que lo requiere. La portada incluye la huella
-SHA-256 del archivo original seleccionado.
+El nombre inicial es **CAPTURA <nombre original>.pdf**. Puedes cambiarlo antes de guardar.
 
-### Qué resultado se obtiene
+La fecha y hora se proponen a partir de la creación del archivo en Windows. Copiar o descargar el archivo puede cambiar esa fecha: revísala y corrígela cuando corresponda.
 
-Se genera **un único PDF** con la portada y la captura en hojas A4 consecutivas.
-No se crea una copia adicional de la captura y el original no se modifica.
-Si el nombre elegido ya existe, se utiliza otro nombre para evitar sobrescribirlo.
+### Resultado
 
-Las capturas largas se distribuyen sin perder ni repetir franjas. Los PDF
-conservan el orden y las proporciones de sus páginas; las páginas muy largas
-pueden ocupar varias hojas A4. Las anotaciones y formularios visibles se fijan
-como parte del contenido del documento de salida.
+Se genera un único PDF con portada y captura distribuida en hojas A4. El original se conserva y no se crea otra copia adicional.
 
-CAPTURAPOL no aplica OCR ni crea texto buscable a partir de imágenes. No visita
-la dirección web introducida ni archiva la página en Archive.org: documenta el
-archivo que recibe y los datos aportados por el usuario.
+La portada incluye la huella SHA-256 del archivo original.
 
-### Opciones de firma
+Las capturas largas se distribuyen en hojas consecutivas. En los PDF se mantienen el orden y las proporciones; una página larga puede ocupar varias hojas.
+
+Si el nombre de salida ya existe, se utiliza otro para evitar sobrescribirlo.
+
+CAPTURAPOL trabaja con el archivo recibido. La obtención de la captura se realiza previamente con la herramienta elegida.
+
+### Firma
 
 - **Sin firma:** genera el documento sin apartado de firma.
-- **Firmar electrónicamente ahora:** utiliza AutoFirma y la tarjeta; se guarda
-  el resultado después de firmar y comprobar que la firma cubre todo el PDF,
-  aunque su cuadro visible esté en la portada.
-- **Preparar para firma externa:** añade un cuadro y un campo de firma vacío
-  para utilizar otra aplicación posteriormente. El archivo todavía no está
-  firmado electrónicamente.
+- **Firmar electrónicamente ahora:** utiliza AutoFirma y guarda el resultado después de comprobar la firma.
+- **Preparar para firma externa:** incorpora un campo vacío para firmar posteriormente.
 
-AutoFirma y los controladores deben estar instalados en el equipo. El PIN se
-introduce en el firmador y no se guarda en CAPTURAPOL. La comprobación de firma
-es local y no comprueba revocación ni confianza externa en el certificado.
+La firma electrónica corresponde al PDF completo, aunque el cuadro visible esté en la portada.
 
-El manifiesto del expediente se crea opcionalmente en FOLIAPOL, no en CAPTURAPOL.
-La carga de una imagen de firma descrita en esta guía es una opción de FOLIAPOL;
-CAPTURAPOL ofrece las tres modalidades anteriores.
+AutoFirma y los controladores de la tarjeta deben estar instalados. El PIN se introduce en el firmador y no se guarda en CAPTURAPOL.
 
-## 12. Cómo combinar los programas
+## 12. VIDEOPOL: Calliopol Vídeo
+
+VIDEOPOL permite revisar grabaciones, seleccionar fotogramas, organizarlos en un relato y generar actas o volcados automáticos.
+
+### 12.1. Crear el proyecto
+
+1. Abre **Calliopol Vídeo** desde el lanzador.
+2. Pulsa **Nuevo**.
+3. Utiliza **Añadir vídeos** para incorporar hasta cuatro archivos.
+4. Espera a que termine la inspección inicial.
+5. Utiliza **Nombrar cámara / datos horarios** para identificar las cámaras.
+6. Guarda el proyecto.
+
+La aplicación calcula la huella SHA-256 de los vídeos. Los archivos originales se conservan sin modificar.
+
+### 12.2. Revisar las grabaciones
+
+En **Cámaras y momentos**, cada cámara dispone de controles para:
+
+- Reproducir y pausar.
+- Avanzar o retroceder por fotogramas.
+- Cambiar la posición de reproducción.
+- Elegir velocidad.
+- Controlar el silencio.
+- Capturar un fotograma.
+- Marcar un momento.
+- Abrir la vista ampliada.
+
+**Ampliar** abre la cámara en una ventana mayor que conserva los controles de revisión. Puedes volver con Esc, la X o el botón de retorno.
+
+### 12.3. Revisar varias cámaras
+
+Marca **Conjunta** en las cámaras que quieras controlar juntas.
+
+Para ajustar grabaciones con horarios diferentes:
+
+1. Pausa cada cámara en un mismo hecho reconocible.
+2. Selecciona la cámara de referencia.
+3. Pulsa **Alinear con cámara activa**.
+4. Comprueba la correspondencia al reproducirlas.
+
+Los desfases permiten coordinar las posiciones. Revisa su ajuste con un hecho común.
+
+Volver a una marca actúa sobre la cámara correspondiente y desactiva la sincronización.
+
+### 12.4. Marcar momentos y crear hitos
+
+Un **hito** es un apartado del relato, como «Llegada», «Acceso al inmueble» o «Salida».
+
+1. Sitúa la cámara en el momento relevante.
+2. Pulsa **Marcar momento**.
+3. Crea un hito o vincula la marca al que corresponda.
+4. Continúa revisando y captura las imágenes necesarias.
+
+Las capturas se asignan al hito activo de esa cámara según sus marcas. Al desplazarte hacia delante o hacia atrás, el hito activo puede cambiar.
+
+Comprueba el hito de destino antes de capturar. Antes de la primera marca puede no haber un hito asignado.
+
+### 12.5. Organizar fotografías y grupos
+
+En **Organizador del acta** puedes preparar el orden del documento.
+
+Las capturas nuevas se incorporan como fotografías individuales. Para reunir varias:
+
+1. Selecciona las fotografías utilizando Ctrl o Mayús.
+2. Pulsa **Crear grupo con seleccionadas**.
+3. Escribe el comentario común.
+4. Añade comentarios propios a las imágenes que lo necesiten.
+
+También puedes:
+
+- Añadir imágenes a un grupo existente.
+- Separar fotografías de un grupo.
+- Reordenar hitos, bloques e imágenes.
+- Mover bloques a otro hito.
+- Insertar texto libre.
+- Comparar hasta cuatro capturas.
+
+Un hito puede tener su comentario general. Los grupos admiten un comentario común y cada fotografía puede conservar el suyo.
+
+Revisa el orden del árbol: será el utilizado para preparar el relato.
+
+### 12.6. Añadir marcas gráficas
+
+Selecciona una captura y abre **Marcas gráficas**.
+
+Las herramientas permiten incorporar:
+
+- Círculos.
+- Recuadros.
+- Flechas.
+- Texto y etiquetas.
+- Imágenes insertadas.
+
+Puedes elegir color y tamaño de letra.
+
+Para una imagen insertada:
+
+1. Selecciona **Insertar imagen**.
+2. Arrastra un recuadro y elige el archivo.
+3. Utiliza **Seleccionar / mover** para desplazarla.
+4. Arrastra un tirador de esquina para cambiar su tamaño manteniendo la proporción.
+
+Las marcas se guardan en el proyecto sin modificar el vídeo original.
+
+### 12.7. Generar el acta Word
+
+1. Abre **Datos de la unidad y del acta**.
+2. Completa los campos necesarios.
+3. Guarda los datos permanentes de la unidad.
+4. Revisa hitos, grupos, fotografías y comentarios.
+5. Pulsa **Exportar Word**.
+6. Elige el destino.
+7. Abre y revisa el documento generado.
+
+El acta se exporta en formato **DOCX editable** e incorpora la identificación de los vídeos y el relato organizado.
+
+Incluye un anexo con una fotografía por página, a mayor tamaño.
+
+Junto al acta se crea una carpeta con copias **JPG de los fotogramas**, numeradas como en el documento. Conservan los píxeles de las capturas y las marcas visibles.
+
+El Word no se firma automáticamente. Revisa su contenido y maquetación con una aplicación compatible.
+
+### 12.8. Realizar un volcado automático
+
+El volcado obtiene fotogramas de intervalos definidos con una frecuencia en segundos.
+
+1. Abre **Volcado automático**.
+2. Selecciona el vídeo.
+3. Indica inicio, fin y frecuencia.
+4. Pulsa **Añadir intervalo**.
+5. Repite la operación si necesitas más intervalos.
+6. Revisa la previsión.
+7. Selecciona la modalidad de firma.
+8. Pulsa **Generar PDF**.
+
+**Vídeo completo** rellena los límites con la duración de la cámara elegida.
+
+Cada intervalo genera su propia acta PDF. Si hay varias, el programa solicita una carpeta de destino.
+
+Por ejemplo, una frecuencia de diez segundos solicita una captura en cada posición prevista del intervalo. La extracción utiliza los fotogramas realmente disponibles; los saltos o huecos del archivo pueden afectar al resultado.
+
+### 12.9. Firmar los PDF
+
+Las opciones del volcado son:
+
+- **Sin firma**.
+- **Preparar para firma externa**.
+- **Firmar con AutoFirma**.
+
+La firma externa incorpora un campo vacío. El documento sigue sin firma electrónica hasta que se complete con otra aplicación.
+
+La firma con AutoFirma requiere su instalación y el certificado correspondiente. Si falla, se conserva el PDF sin firmar para poder reintentar.
+
+**Reintentar firma de PDF** permite seleccionar un documento preparado e intentar firmar una copia.
+
+### 12.10. Guardar y recuperar el trabajo
+
+Utiliza **Guardar** y **Abrir proyecto** para continuar el trabajo.
+
+La aplicación realiza guardados automáticos y ofrece recuperación cuando corresponde.
+
+Cada proyecto utiliza una carpeta con su información y sus capturas. Los vídeos originales se referencian por separado.
+
+**Guardar el JSON en otra ubicación no traslada el proyecto completo.** Conserva también la carpeta de capturas y los vídeos.
+
+Si un vídeo cambia de ubicación, utiliza **Localizar vídeo de cámara activa**. Se comprueba que su huella coincide antes de volver a vincularlo.
+
+### 12.11. Informe de situación
+
+En **Informe de situación** puedes revisar la disponibilidad de archivos y las incidencias.
+
+Las opciones permiten:
+
+- Actualizar el informe.
+- Volver a comprobar vídeos y hashes.
+- Comprobar todas las imágenes de los vídeos.
+- Localizar un vídeo que se haya movido.
+
+La inspección inicial y la lectura completa son comprobaciones diferentes. Un archivo puede abrirse inicialmente y presentar problemas en un punto posterior.
+
+La compatibilidad depende del formato y la codificación de cada grabación. Los formatos propietarios de determinados sistemas CCTV pueden requerir una exportación compatible desde su aplicación de origen.
+
+## 13. Cómo combinar los programas
 
 | Trabajo | Secuencia posible |
 | --- | --- |
-| Analizar PDF escaneados y organizar sus datos | OCRPOL → EXTRAPOL → NEXOPOL |
-| Incorporar una captura web a un expediente | Herramienta de captura → CAPTURAPOL → FOLIAPOL |
-| Preparar documentación con fotografías | RECONOPOL → FOLIAPOL |
-| Obtener una copia del expediente sin determinados datos | FOLIAPOL → ANONIPOL, conservando el expediente original |
+| Analizar PDF escaneados | OCRPOL → EXTRAPOL |
+| Preparar mapas a partir de documentos escaneados | OCRPOL → NEXOPOL |
+| Incorporar una captura a un expediente | Herramienta de captura → CAPTURAPOL → FOLIAPOL |
+| Incorporar un reconocimiento fotográfico | RECONOPOL → FOLIAPOL |
+| Incorporar un volcado de vídeo | VIDEOPOL → FOLIAPOL |
+| Incorporar el acta Word de vídeo | VIDEOPOL → revisión y exportación a PDF con una aplicación compatible → FOLIAPOL |
+| Preparar una copia anonimizada del expediente | FOLIAPOL → ANONIPOL |
 
-Los archivos se pasan de un programa a otro seleccionándolos en cada aplicación;
-estas secuencias no se ejecutan automáticamente desde el lanzador.
+Estas secuencias se realizan seleccionando los archivos en cada herramienta. El lanzador no las ejecuta automáticamente.
 
-Si vas a incluir una captura en FOLIAPOL, puedes generar primero el PDF en
-CAPTURAPOL sin firma y firmar el expediente completo al terminar. Unir un PDF
-firmado a otro expediente no mantiene válida su firma en el nuevo archivo.
-Del mismo modo, anonimizar o modificar un documento firmado requiere conservar
-el original y, si procede, firmar la copia resultante después de modificarla.
+Si vas a unir varios documentos y firmar el resultado, termina primero la composición y firma después el expediente final.
 
-## 13. Datos, copias de seguridad y actualización
+Conserva los originales firmados: unir, anonimizar o modificar un documento firmado afecta a su firma en el archivo resultante.
+
+## 14. Datos, copias y actualizaciones
 
 ### Dónde se guardan los datos
 
-Al abrir una herramienta desde CALLIOPOL, el lanzador le asigna carpetas de
-datos, configuración, registros y temporales dentro de `user_data`. En la
-estructura portable actual esa carpeta depende de la ubicación del lanzador:
-normalmente está en `CALLIOPOL/user_data` dentro de la suite. Los PDF que
-permiten elegir destino se guardan en la carpeta seleccionada por el usuario.
+Al abrir las herramientas desde el lanzador, los datos de uso se guardan normalmente dentro de:
 
-Si una aplicación se abre directamente por su `.exe`, puede utilizar su propia
-ubicación de datos. Para mantener un uso consistente de las carpetas, abre las
-herramientas desde el lanzador.
+```text
+CALLIOPOL 2.4/CALLIOPOL/user_data/
+```
 
-Conserva copias de los datos de la unidad, modelos personalizados, proyectos,
-fotografías y documentos de salida. Copiar únicamente los ejecutables no
-conserva necesariamente esos materiales.
+Esta ubicación incluye carpetas de datos, configuración, registros y temporales para cada aplicación.
+
+Los documentos que permiten elegir destino se guardan donde indique el usuario.
+
+Abrir directamente el ejecutable de una herramienta puede hacer que utilice otra ubicación de datos. Utiliza el lanzador para mantener un funcionamiento consistente.
+
+### Qué debes conservar
+
+Realiza copias de:
+
+- Datos y configuración de la unidad.
+- Modelos y formularios personalizados.
+- Proyectos.
+- Fotografías y capturas.
+- Vídeos originales.
+- Documentos generados.
+
+En VIDEOPOL conserva el conjunto del proyecto y sus archivos asociados. En NEXOPOL conserva también las imágenes vinculadas.
+
+### Actualizar la suite
+
+1. Cierra las aplicaciones.
+2. Haz una copia de los datos, proyectos y modelos propios.
+3. Descomprime la nueva versión en una carpeta independiente.
+4. Conserva la versión anterior hasta comprobar el funcionamiento.
+5. Recupera los datos y la configuración que correspondan, manteniendo sus rutas y archivos asociados.
+6. Comprueba los proyectos antes de retirar la copia anterior.
 
 ### Actualizar una herramienta
 
-Cada programa tiene su carpeta portable en `apps`. Esto permite actualizar una
-herramienta sin reconstruir las demás.
+Cada aplicación tiene una carpeta portable dentro de `apps`.
 
-1. Cierra la herramienta que vas a actualizar.
-2. Guarda una copia de sus datos y configuración. Cualquier actualización del
-   lanzador requiere conservar también sus datos de uso.
-3. Utiliza el paquete completo de actualización suministrado para esa aplicación.
-4. Sustituye la carpeta de programa indicada en ese paquete, conservando los
-   datos y modelos propios de la instalación destinataria.
-5. Abre la herramienta desde CALLIOPOL y comprueba que mantiene tus datos.
+Cuando se distribuya una actualización individual, utiliza su carpeta completa y las instrucciones del paquete. El ejecutable debe acompañarse de sus bibliotecas y recursos.
 
-No basta con copiar el `.exe`: deben acompañarlo sus bibliotecas y recursos.
-Si se añade una aplicación nueva, la configuración del lanzador debe incluirla.
-El lanzador se actualiza por separado cuando cambia su código o interfaz.
+Si se añade una aplicación, también debe estar incluida en la configuración del lanzador.
 
-Algunas herramientas utilizan otros componentes de la suite. Por ejemplo,
-ANONIPOL utiliza el motor de OCRPOL para escaneos sin texto. Mantén esos módulos
-disponibles y con versiones compatibles al repartir actualizaciones.
+### Compartir una copia del programa
 
-### Al compartir un portable
+Prepara las distribuciones sin expedientes, proyectos, configuraciones personales ni registros de uso.
 
-Prepara la distribución sin datos de expedientes, configuraciones personales,
-proyectos ni registros de uso. Los programas trabajan localmente, pero las
-búsquedas externas de EXTRAPOL y NEXOPOL abren servicios del navegador. Utiliza
-las ubicaciones de trabajo y las copias de seguridad previstas para tus documentos.
+Mantén las copias de trabajo y de seguridad en las ubicaciones previstas para tus documentos.
 
-## 14. Problemas frecuentes
+## 15. Problemas frecuentes
 
-| Situación | Comprobación o solución |
+| Situación | Qué comprobar |
 | --- | --- |
-| Un programa aparece como no disponible | Comprueba que su carpeta completa esté en `apps` y que no falte su ejecutable. |
-| El portable no abre después de copiarlo | Comprueba que copiaste toda la estructura y descomprimiste el ZIP antes de ejecutarlo. |
-| AutoFirma no se encuentra | Comprueba su instalación. AutoFirma no viene incluido en la suite. |
-| No aparece el certificado para firmar | Comprueba la tarjeta, sus controladores y la disponibilidad del certificado de FIRMA. |
-| Se cancela la firma de una parte de FOLIAPOL | Repite la generación cuando puedas completar la firma de todas las partes. No se publican resultados nuevos a medias. |
-| Un corte manual de FOLIAPOL supera 10 MB | Añade otro corte o mueve el corte anterior usando el orden completo de «Elegir páginas». |
-| Una página sola supera 10 MB | Reduce previamente el documento de origen; la división por páginas no puede reducir una hoja que ya supera el límite. |
-| FOLIAPOL no puede incorporar un archivo | Revisa el nombre y la ubicación que muestra el error y comprueba si el PDF está dañado o protegido. |
-| No aparecen datos en EXTRAPOL o NEXOPOL | Comprueba que el PDF tenga texto seleccionable; si es un escaneo, utiliza OCRPOL primero. |
-| EXTRAPOL no genera los Excel esperados | Ejecuta primero la Fase 0 con los documentos actuales y después la fase correspondiente. |
-| La fecha propuesta por CAPTURAPOL no coincide con la captura | Revisa si el archivo se copió o descargó y cambia manualmente la fecha y la hora. |
-| El manifiesto no aparece en un PDF separado | Es la última sección del expediente de FOLIAPOL y su entrada figura en el índice. |
-| ANONIPOL no detecta un dato concreto | Añádelo a los términos propios o utiliza el modo manual y revisa el resultado. |
+| Un programa aparece como no disponible | Que conserve su carpeta completa dentro de `apps`. |
+| El portable no abre después de copiarlo | Que se haya descomprimido todo el ZIP y copiado toda la estructura. |
+| AutoFirma no se encuentra | Que esté instalado en el equipo. |
+| No aparece el certificado de firma | La tarjeta, sus controladores y el certificado de FIRMA. |
+| Un PDF escaneado no permite extraer datos | Procésalo primero con OCRPOL. |
+| EXTRAPOL no genera los resultados esperados | Ejecuta de nuevo la Fase 0 con los documentos actuales. |
+| EXTRAPOL no extrae datos de un documento con texto | Comprueba que contenga los bloques DENUNCIANTE y MANIFIESTA reconocibles. |
+| Un corte de FOLIAPOL supera 10 MB | Añade o cambia los cortes. |
+| Una página sola supera 10 MB | Reduce previamente el documento de origen. |
+| El manifiesto no aparece como PDF separado | Está unido al final del expediente. |
+| La fecha propuesta por CAPTURAPOL no coincide | Revisa si el archivo fue copiado o descargado y corrige fecha y hora. |
+| CAPTURAPOL pide una página web | En la versión 2.4 el campo es opcional; comprueba que utilizas la versión actualizada. |
+| Una captura de vídeo aparece en otro hito | Comprueba las marcas temporales de esa cámara y el hito activo. |
+| Varias fotos deben compartir comentario | Selecciónalas y crea un grupo. |
+| Una imagen insertada debe cambiar de tamaño | Selecciónala y arrastra uno de sus tiradores de esquina. |
+| VIDEOPOL no encuentra un vídeo | Utiliza Localizar vídeo y selecciona el original correspondiente. |
+| Un proyecto de vídeo no abre bien tras moverlo | Comprueba la carpeta de capturas, el JSON y las rutas de los vídeos originales. |
+| Un vídeo no puede reproducirse | Comprueba su formato y codificación; puede requerir exportación desde el sistema de origen. |
+| El Word necesita ajustes de presentación | Ábrelo con una aplicación compatible, revisa su maquetación y guarda los cambios. |
+| ANONIPOL no detecta un dato | Añádelo como término propio o utiliza el modo manual. |
 
-## 15. Glosario sencillo
+## 16. Glosario
 
-| Término | Significado en esta guía |
+| Término | Significado |
 | --- | --- |
-| Portable | Programa preparado para ejecutarse desde su carpeta, con sus bibliotecas y recursos. Algunas funciones necesitan componentes externos, como AutoFirma. |
-| Lanzador | Menú principal desde el que se abren los programas. |
-| OCR | Reconocimiento del texto de una imagen o escaneo para poder buscarlo y copiarlo. |
-| OSINT | Consulta de información en fuentes abiertas, como servicios y páginas web. |
-| Hash o huella SHA-256 | Código calculado a partir del contenido de un archivo que ayuda a comprobar si ese contenido coincide con otro. |
-| Manifiesto de integridad | Relación de los archivos incorporados y de sus huellas y tamaños. |
-| Firma electrónica | Firma basada en un certificado que permite comprobar que corresponde al contenido del documento. |
-| Firma invisible | Firma electrónica cuyo cuadro no se muestra en la página. Sigue protegiendo el archivo firmado. |
-| Imagen de firma | Representación visual de una firma manuscrita; por sí sola no es una firma electrónica. |
-| Firma externa | Firma que se realiza después de generar el PDF, utilizando otra aplicación. |
+| Portable | Aplicación preparada para ejecutarse desde una carpeta con sus recursos. |
+| Lanzador | Menú principal desde el que se abren las herramientas. |
+| OCR | Reconocimiento del texto presente en imágenes o documentos escaneados. |
+| OSINT | Consulta de información en fuentes abiertas. |
+| Fotograma | Imagen correspondiente a un momento de un vídeo. |
+| Hito | Apartado del relato al que se vinculan momentos y capturas. |
+| Grupo | Conjunto de fotografías que puede tener un comentario común. |
+| Intervalo | Tramo de vídeo definido por un inicio y un fin. |
+| Desfase | Diferencia temporal utilizada para alinear varias grabaciones. |
+| Hash o SHA-256 | Huella calculada a partir de los bytes de un archivo para comprobar su coincidencia. |
+| Manifiesto de integridad | Relación de archivos con sus tamaños y huellas. |
+| Firma electrónica | Firma basada en un certificado y vinculada al contenido del documento. |
+| Firma invisible | Firma electrónica sin cuadro visible en la página. |
+| Imagen de firma | Representación visual que por sí sola no constituye una firma electrónica. |
+| Firma externa | Firma completada después de generar el PDF mediante otra aplicación. |
 
-Consulta las [novedades de CALLIOPOL 2.3](NOVEDADES_2.3.md) para conocer los
-cambios de esta actualización.
+**Revisa siempre los resultados antes de incorporarlos a un expediente y conserva los archivos originales.**
