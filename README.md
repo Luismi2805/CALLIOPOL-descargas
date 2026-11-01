@@ -10,7 +10,7 @@ El procesamiento de documentos y vídeos se realiza localmente. Las consultas en
 
 En la página de la release, descarga el **ZIP portable** disponible dentro de **Assets**.
 
-1. Descarga el ZIP.
+1. Descarga el ZIP con nombre CALLIOPOL.2.4.zip al final de la página.
 2. Descomprime todo su contenido.
 3. Abre la carpeta descomprimida.
 4. Ejecuta **CALLIOPOL.bat**.
